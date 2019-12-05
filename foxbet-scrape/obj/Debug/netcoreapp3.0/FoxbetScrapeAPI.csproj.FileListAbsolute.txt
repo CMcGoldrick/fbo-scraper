@@ -1,0 +1,6 @@
+C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.csprojAssemblyReference.cache
+C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\staticwebassets\FoxbetScrapeAPI.StaticWebAssets.Manifest.cache
+C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\staticwebassets\FoxbetScrapeAPI.StaticWebAssets.xml
+C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.AssemblyInfoInputs.cache
+C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.AssemblyInfo.cs
