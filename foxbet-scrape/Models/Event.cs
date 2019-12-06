@@ -7,9 +7,9 @@ namespace FoxbetScrapeAPI.Models
 {
     public class Event
     {
-        public string HomeTeam { get; set; }
-        public string AwayTeam { get; set; }
-        public int OfferId { get; set; }
-        public DateTime dateTime { get; set; }
+        public int Id { get; set; }
+        public string OfferName { get; set; }
+        public int Odds { get; set; }
+        public string SportsBook { get; set; }
     }
 }
