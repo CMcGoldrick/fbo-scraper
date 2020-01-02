@@ -193,6 +193,19 @@
           }
         }
       },
+      "Selenium.WebDriver.PhantomJS.Xplatform/2.45.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Ionic.Zip.dll": {},
+          "lib/net40/Newtonsoft.Json.dll": {},
+          "lib/net40/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Ionic.Zip.dll": {},
+          "lib/net40/Newtonsoft.Json.dll": {},
+          "lib/net40/WebDriver.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1188,6 +1201,21 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "Selenium.WebDriver.PhantomJS.Xplatform/2.45.0.1": {
+      "sha512": "KRyzad+mceCeX8d7uX06QOLRJXDsLjMMKEslaP/MAxa3dRAxL6hHP0E1jMZ4tpckkVuRohppnZbxy/ydUtiLIQ==",
+      "type": "package",
+      "path": "selenium.webdriver.phantomjs.xplatform/2.45.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Ionic.Zip.dll",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "selenium.webdriver.phantomjs.xplatform.2.45.0.1.nupkg.sha512",
+        "selenium.webdriver.phantomjs.xplatform.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -3369,7 +3397,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "HtmlAgilityPack >= 1.11.17"
+      "HtmlAgilityPack >= 1.11.17",
+      "Selenium.WebDriver.PhantomJS.Xplatform >= 2.45.0.1"
     ]
   },
   "packageFolders": {
@@ -3412,6 +3441,10 @@
           "HtmlAgilityPack": {
             "target": "Package",
             "version": "[1.11.17, )"
+          },
+          "Selenium.WebDriver.PhantomJS.Xplatform": {
+            "target": "Package",
+            "version": "[2.45.0.1, )"
           }
         },
         "imports": [
@@ -3435,5 +3468,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Selenium.WebDriver.PhantomJS.Xplatform 2.45.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Selenium.WebDriver.PhantomJS.Xplatform",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
 }

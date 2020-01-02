@@ -1,7 +1,5 @@
-C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.csprojAssemblyReference.cache
 C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\staticwebassets\FoxbetScrapeAPI.StaticWebAssets.Manifest.cache
 C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\staticwebassets\FoxbetScrapeAPI.StaticWebAssets.xml
-C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.AssemblyInfoInputs.cache
 C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.AssemblyInfo.cs
 C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\bin\Debug\netcoreapp3.0\appsettings.Development.json
@@ -19,3 +17,8 @@ C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\
 C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.csproj.CopyComplete
 C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.dll
 C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.pdb
+C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\bin\Debug\netcoreapp3.0\Ionic.Zip.dll
+C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\bin\Debug\netcoreapp3.0\WebDriver.dll
+C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\13127\source\repos\foxbet-scrape\foxbet-scrape\obj\Debug\netcoreapp3.0\FoxbetScrapeAPI.csprojAssemblyReference.cache

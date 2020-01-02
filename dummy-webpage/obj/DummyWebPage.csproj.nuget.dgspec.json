@@ -26,6 +26,75 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\13127\\source\\repos\\foxbet-scrape\\foxbet-scrape\\FoxbetScrapeAPI.csproj": {
+                "projectPath": "C:\\Users\\13127\\source\\repos\\foxbet-scrape\\foxbet-scrape\\FoxbetScrapeAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "phantomjs.exe": {
+              "target": "Package",
+              "version": "[1.9.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\13127\\source\\repos\\foxbet-scrape\\foxbet-scrape\\FoxbetScrapeAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\13127\\source\\repos\\foxbet-scrape\\foxbet-scrape\\FoxbetScrapeAPI.csproj",
+        "projectName": "FoxbetScrapeAPI",
+        "projectPath": "C:\\Users\\13127\\source\\repos\\foxbet-scrape\\foxbet-scrape\\FoxbetScrapeAPI.csproj",
+        "packagesPath": "C:\\Users\\13127\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\13127\\source\\repos\\foxbet-scrape\\foxbet-scrape\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\13127\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -37,6 +106,16 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.17, )"
+            },
+            "Selenium.WebDriver.PhantomJS.Xplatform": {
+              "target": "Package",
+              "version": "[2.45.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

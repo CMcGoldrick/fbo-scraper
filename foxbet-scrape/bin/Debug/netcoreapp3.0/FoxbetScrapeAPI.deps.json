@@ -25,6 +25,7 @@
       "FoxbetScrapeAPI/1.0.0": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.17",
+          "Selenium.WebDriver.PhantomJS.Xplatform": "2.45.0.1",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -376,6 +377,27 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "Selenium.WebDriver.PhantomJS.Xplatform/2.45.0.1": {
+        "runtime": {
+          "lib/net40/Ionic.Zip.dll": {
+            "assemblyVersion": "1.9.1.8",
+            "fileVersion": "1.9.1.8"
+          },
+          "lib/net40/Newtonsoft.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.2.16931"
+          },
+          "lib/net40/WebDriver.dll": {
+            "assemblyVersion": "2.45.0.0",
+            "fileVersion": "2.45.0.0"
+          }
+        },
+        "compile": {
+          "lib/net40/Ionic.Zip.dll": {},
+          "lib/net40/Newtonsoft.Json.dll": {},
+          "lib/net40/WebDriver.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -2638,6 +2660,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.PhantomJS.Xplatform/2.45.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KRyzad+mceCeX8d7uX06QOLRJXDsLjMMKEslaP/MAxa3dRAxL6hHP0E1jMZ4tpckkVuRohppnZbxy/ydUtiLIQ==",
+      "path": "selenium.webdriver.phantomjs.xplatform/2.45.0.1",
+      "hashPath": "selenium.webdriver.phantomjs.xplatform.2.45.0.1.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",

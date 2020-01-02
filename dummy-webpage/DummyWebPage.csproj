@@ -5,8 +5,22 @@
     <RootNamespace>DummyWebPage</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <COMReference Include="{bee4bfec-6683-3e67-9167-3c0cbc68f40a}">
+      <Guid>bee4bfec-6683-3e67-9167-3c0cbc68f40a</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="phantomjs.exe" Version="1.9.2.1" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\foxbet-scrape\FoxbetScrapeAPI.csproj" />
   </ItemGroup>
 
 </Project>
