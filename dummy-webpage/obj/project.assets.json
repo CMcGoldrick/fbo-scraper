@@ -319,6 +319,12 @@
           }
         }
       },
+      "Selenium.Chrome.WebDriver/79.0.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Selenium.WebDriver/3.141.0": {
         "type": "package",
         "dependencies": {
@@ -1491,6 +1497,8 @@
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
           "HtmlAgilityPack": "1.11.17",
+          "Selenium.Chrome.WebDriver": "79.0.0",
+          "Selenium.WebDriver": "3.141.0",
           "Selenium.WebDriver.PhantomJS.Xplatform": "2.45.0.1"
         },
         "compile": {
@@ -2079,6 +2087,19 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "Selenium.Chrome.WebDriver/79.0.0": {
+      "sha512": "BKamee/fxFy7+hvQD7rXMWaYxdrSQDZHevT5NeMeDCqD2c1jsFh0zAbGR56usfWOpuIJT8RC6TWDkcSQjeWS6A==",
+      "type": "package",
+      "path": "selenium.chrome.webdriver/79.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.Chrome.WebDriver.targets",
+        "driver/chromedriver.exe",
+        "selenium.chrome.webdriver.79.0.0.nupkg.sha512",
+        "selenium.chrome.webdriver.nuspec"
       ]
     },
     "Selenium.WebDriver/3.141.0": {

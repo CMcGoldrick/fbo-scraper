@@ -8,8 +8,9 @@ namespace FoxbetScrapeAPI.Models
     public class Event
     {
         public int Id { get; set; }
-        public string OfferName { get; set; }
-        public int Odds { get; set; }
-        public string SportsBook { get; set; }
+        public string HomeTeam { get; set; }
+        public string AwayTeam { get; set; }
+        public virtual ICollection<Outcome> Outcomes { get; set; }
+
     }
 }
